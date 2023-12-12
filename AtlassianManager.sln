@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlassianManager", "AtlassianManager\AtlassianManager.csproj", "{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Files", "0.Files", "{E44CED24-FD95-4184-B683-F66802C7533C}"
+	ProjectSection(SolutionItems) = preProject
+		Files\BH_Library.dll = Files\BH_Library.dll
+		Files\Interop.IWshRuntimeLibrary.dll = Files\Interop.IWshRuntimeLibrary.dll
+		Files\Microsoft.Win32.TaskScheduler.dll = Files\Microsoft.Win32.TaskScheduler.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Library", "1.Library", "{F1481A38-0FB3-45C3-A60C-18D96117D0EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Core", "2.Core", "{12205D78-13DC-4291-9C18-25795956C3E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Data", "3.Data", "{0D9EEB7D-764D-4F4F-BF8C-702F2842CEA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.WebAPI", "4.WebAPI", "{EB89603C-4438-4DEF-86F0-3B93603D0946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.CsExecute", "5.CsExecute", "{2D5638BF-F7E3-429B-99EC-72E360DFA0CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.WebExecute", "6.WebExecute", "{A3A834A6-0B1A-41CB-B9F2-82FA9262C745}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.Test", "7.Test", "{1B95E12A-968B-4BA6-B8EA-351D99589724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlassianManager.Data", "AtlassianManager.Data\AtlassianManager.Data.csproj", "{D9F866C1-62CC-4DD6-8F64-CCA04F955138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH_Library", "..\..\진병호\BH_TFS\BHPG\BH_Library\BH_Library\BH_Library.csproj", "{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiUpdateManager", "WikiUpdateManager\WikiUpdateManager.csproj", "{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctksales.com.FTP", "ctksales.com.FTP\ctksales.com.FTP.csproj", "{5481532D-B158-4C79-BD99-017578CD1C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A}.Release|x86.Build.0 = Release|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Debug|x86.Build.0 = Debug|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Release|x86.ActiveCfg = Release|Any CPU
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138}.Release|x86.Build.0 = Release|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|x86.ActiveCfg = Debug|x86
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|x86.Build.0 = Debug|x86
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|x86.ActiveCfg = Release|x86
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|x86.Build.0 = Release|x86
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Debug|x86.Build.0 = Debug|Any CPU
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Release|x86.ActiveCfg = Release|Any CPU
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B}.Release|x86.Build.0 = Release|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Debug|x86.Build.0 = Debug|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Release|x86.ActiveCfg = Release|Any CPU
+		{5481532D-B158-4C79-BD99-017578CD1C13}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B2E9486-9F11-42AC-AF57-6AAF7901B68A} = {2D5638BF-F7E3-429B-99EC-72E360DFA0CD}
+		{D9F866C1-62CC-4DD6-8F64-CCA04F955138} = {0D9EEB7D-764D-4F4F-BF8C-702F2842CEA7}
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F} = {F1481A38-0FB3-45C3-A60C-18D96117D0EF}
+		{1219B6C9-9988-4632-AFD3-6A0CEAA0B47B} = {2D5638BF-F7E3-429B-99EC-72E360DFA0CD}
+		{5481532D-B158-4C79-BD99-017578CD1C13} = {2D5638BF-F7E3-429B-99EC-72E360DFA0CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60994558-EC37-4366-8DA3-795AC524300E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = 
+		SccProjectUniqueName0 = ..\\..\\진병호\\BH_TFS\\BHPG\\BH_Library\\BH_Library\\BH_Library.csproj
+		SccProjectTopLevelParentUniqueName0 = AtlassianManager.sln
+		SccProjectName0 = $/BHPG/BH_Library/BH_Library
+		SccAuxPath0 = https://bhpg.visualstudio.com
+		SccLocalPath0 = ..\\..\\진병호\\BH_TFS\\BHPG\\BH_Library\\BH_Library
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
